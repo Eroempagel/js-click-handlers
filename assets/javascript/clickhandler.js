@@ -14,6 +14,11 @@ blueButton.addEventListener("click", function () {
  * Add the JS for the pink button
  *
  */
+// JS for the pink button
+const pinkButton = document.querySelector("#pink-button");
+pinkButton.addEventListener("click", function () {
+  colorBox.className = "pink";
+});
 let count = 0;
 const countspan = document.querySelector("#countspan");
 const counterButton = document.querySelector("#counter-button");

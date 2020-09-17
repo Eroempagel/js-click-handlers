@@ -13,3 +13,6 @@
 * Add a CSS rule for the pink button.
 *
 */
+.pink {
+  background: pink;
+}
