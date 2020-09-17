@@ -45,10 +45,11 @@ evenOrOddButton.addEventListener("click", function () {
   const countspan = document.querySelector("#countspan");
   let newCounterValue = Number(countspan.innerHTML);
   countspan.innerHTML = newCounterValue;
-  document.body.innerHTML += "Number = " + newCounterValue + "<br>";
+  document.body.innerHTML +=
+    "<br>" + "The count equals " + newCounterValue + "<br>";
   if (newCounterValue % 2 == 0) {
-    document.body.innerHTML += "Number is even!";
+    document.body.innerHTML += "The count is even!";
   } else {
-    document.body.innerHTML += "Number is odd!";
+    document.body.innerHTML += "The count is odd!";
   }
 });
